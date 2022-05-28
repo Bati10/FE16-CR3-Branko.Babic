@@ -41,7 +41,7 @@
 
     <div class="bg-image pozadina" style="background-image: url('https://cdn.pixabay.com/photo/2017/05/31/20/51/crowd-2361583_960_720.jpg');
     height: 100vh;">
-        <div class="text">
+        <div class="text text-center">
             <h1 class="text-dark">World Music Festival</h1>
         </div>
         <div class="icons">
@@ -50,7 +50,7 @@
             <i class="fa fa-map-marker p-2" style="font-size:40px;color:green"></i><span>Vienna, Austria</span>
         </div>
         <div class="btn">
-            <button type="button" class="btn btn-success p-3">Success</button>
+            <button type="button" class="btn btn-success p-3">Book now</button>
         </div>
     </div>
 
@@ -282,36 +282,28 @@
             <button type="button" class="btn btn-secondary">Load More</button>
         </div>
     </div>
-    <section class="noga">
-        <div class="" style="max-width:50%;">
-            <h3 class="my-3">Get in touch</h3>
-            <div class="row ">
-                <div class="col-md-6 ">
-                    <img src="https://media.istockphoto.com/photos/black-male-guitarist-singing-and-playing-acoustic-guitar-on-stage-picture-id1137781483" class="img-fluid rounded-start" height="300px" alt="">
+    <div class="register-photo">
+        <h3 class="text-center">Get in touch</h3>
+        <div class="form-container">
+            <div class="image-holder"></div>
+            <form method="post">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control border border-secondary" placeholder="Enter email" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
-                <div class="col-md-6 col-sm-12">
-                    <div class="card-body">
-                        <form>
-                            <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                <input type="email" class="form-control" placeholder="Enter email" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label">Name</label>
-                                <input type="password" class="form-control" placeholder="Password" id="exampleInputPassword1">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Message</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-success my-3">Submit</button>
-                        </form>
-                    </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Name</label>
+                    <input type="password" class="form-control  border border-secondary" placeholder="Password" id="exampleInputPassword1">
                 </div>
-            </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control border border-secondary" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success mt-5">Submit</button>
+            </form>
         </div>
-    </section>
+    </div>
     <footer>
         <div class="copyright">
             <p>Copyright &copy 2022 Branko Babic</p>
