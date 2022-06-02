@@ -10,7 +10,7 @@ var theBeatles = 120;
 var bobMarley = 220;
 
 // second task 
-let fest_day1 = (pinkFloyd + theBeatles + theGratefulDead);
+let fest_day1 = (pinkFloyd + theBeatles + theGratefulDead)
 let fest_day2 = (velvetUnderground + ramones + theRollingStones);
 let fest_day3 = (ledZeppelin + u2 + bobMarley);
 
